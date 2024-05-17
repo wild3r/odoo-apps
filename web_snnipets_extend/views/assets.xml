@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="snippet_id" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div class="o_panel_body">
+                <!--________________________ Snippets____________________ -->
+                <t t-snippet="web_snnipets_extend.slider"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.about-us"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.ourcourse"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.achievement"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.teacher"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.event"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.newsfeed"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                <t t-snippet="web_snnipets_extend.footer"
+                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>
