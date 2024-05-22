@@ -17,7 +17,8 @@
         'views/snippets/event.xml',
         'views/snippets/newsfeed.xml',
         'views/snippets/footer.xml',
-        'views/image_library.xml'
+        'views/snippets/s_faq1_collapse.xml',
+        'views/image_library.xml',
     ],
     'qweb': [
         "static/src/xml/base_inherit.xml",
@@ -31,11 +32,13 @@
     ],
     'depends': [
         'website',
+        'web',
     ],
     'application': True,
     'assets': {
         'web.assets_frontend': [
             '/web_snnipets_extend/static/src/scss/homepage.scss',
+            '/web_snnipets_extend/static/src/snippets/s_faq1_collapse/001.scss',
         ],
         'web._assets_primary_variables': [
             '/web_snnipets_extend/static/src/scss/primary_variables.scss'

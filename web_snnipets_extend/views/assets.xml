@@ -3,24 +3,30 @@
 
     <template id="snippet_id" inherit_id="website.snippets">
         <xpath expr="//div[@id='snippet_structure']" position="before">
-            <div class="o_panel_body">
-                <!--________________________ Snippets____________________ -->
-                <t t-snippet="web_snnipets_extend.slider"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.about-us"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.ourcourse"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.achievement"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.teacher"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.event"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.newsfeed"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
-                <t t-snippet="web_snnipets_extend.footer"
-                   t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+            <div id="snippet_faq" class="o_panel">
+               <div class="o_panel_header">FAQ</div>
+               <div class="o_panel_body">
+                  <!--________________________ Snippets____________________ -->
+                  <t t-snippet="web_snnipets_extend.slider"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.about-us"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.ourcourse"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.achievement"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.teacher"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.event"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.newsfeed"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <t t-snippet="web_snnipets_extend.footer"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+                  <!-- FAQ-->
+                  <t t-snippet="web_snnipets_extend.faq1"
+                     t-thumbnail="web_snnipets_extend/static/src/img/snippets_icons/ico_snnipet.png"/>
+               </div>
             </div>
         </xpath>
     </template>

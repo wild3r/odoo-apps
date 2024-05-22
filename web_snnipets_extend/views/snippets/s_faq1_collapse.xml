@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template name="faq" id="faq1">
+        <section class="faq pt32 pb32">
+            <t t-set="uniq" t-value="datetime.datetime.now().microsecond"/>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-8 text-center">
+                        <div class="section-title">
+                            <h4>FAQ's</h4>
+                            <h2>Frequently Asking <span>Question’s</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="card bg-white" data-name="Item" role="presentation">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" role="tab" data-bs-toggle="collapse" t-attf-data-bs-target="#myCollapseTab{{uniq}}_1" aria-expanded="false" t-attf-aria-controls="myCollapseTab{{uniq}}_1">
+                                        What is Lorem Ipsum?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div t-attf-id="myCollapseTab{{uniq}}_1" class="collapse" data-bs-parent="#myCollapse" role="tabpanel">
+                                <div class="card-body">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <!-- Add your image code here -->
+                        <div class="card-body">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                                </div>
+                    </div>
+                </div>
+                    <!-- <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="card bg-white" data-name="Item" role="presentation">
+                                <div class="card-header">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" role="tab" data-bs-toggle="collapse" t-attf-data-bs-target="#myCollapseTab{{uniq}}_2" aria-expanded="false" t-attf-aria-controls="myCollapseTab{{uniq}}_2">
+                                            What is Lorem Ipsum?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div t-attf-id="myCollapseTab{{uniq}}_2" class="collapse" data-bs-parent="#myCollapse" role="tabpanel">
+                                    <div class="card-body">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        </section>
+    </template>
+    <!-- 
+    <record id="web_snnipets_extend.s_faq1_collapse_000_scss" model="ir.asset">
+        <field name="name">Faq collapse 0001 SCSS</field>
+        <field name="bundle">web.assets_frontend</field>
+        <field name="path">web_snnipets_extend/static/src/snippets/s_faq_collapse/001.scss</field>
+    </record> -->
+</odoo>
